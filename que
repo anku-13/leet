@@ -3,7 +3,8 @@ public:
     int reverse(int x) {
         int temp=abs(x);
         string s=to_string(temp);
-        string an="";
+        string str="";
+        string ans="";
         int l=0;int r=s.length()-1;
         while(l<r)
         {
